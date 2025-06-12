@@ -1,0 +1,27 @@
+{
+  "name": "ecoss-site",
+  "version": "1.0.0",
+  "description": "Site institucional da Ecoss Engenharia",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "engenharia",
+    "construção",
+    "energia solar",
+    "incorporação imobiliária",
+    "ecoss"
+  ],
+  "author": "Ecoss Engenharia",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.66.1"
+  }
+}
