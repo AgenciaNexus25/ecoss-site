@@ -15,7 +15,7 @@ export default function Header() {
         <Link href="/" className="logo-container">
           <div className="logo-symbol">
             <Image 
-              src="/images/logo_ecoss.png" 
+              src="/images/ecoss_logo_simbolo.png" 
               alt="Ecoss Engenharia" 
               width={50}
               height={50}
