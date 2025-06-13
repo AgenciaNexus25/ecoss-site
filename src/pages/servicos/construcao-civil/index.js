@@ -7,38 +7,53 @@ export default function ConstrucaoCivil() {
     <Layout>
       <Head>
         <title>Construção Civil - Ecoss Engenharia</title>
-        <meta name="description" content="Serviços de Construção Civil da Ecoss Engenharia. Execução de obras residenciais, comerciais e industriais com qualidade e sustentabilidade." />
+        <meta name="description" content="Execução de obras residenciais, comerciais e institucionais com excelência técnica, cumprimento de prazos e transparência em todas as etapas." />
       </Head>
 
       <div className="page-container">
         <div className="page-header">
           <h1>Construção Civil</h1>
-          <p>Execução de obras com excelência e sustentabilidade</p>
+          <p>Execução de obras residenciais, comerciais e institucionais com excelência técnica, cumprimento de prazos e transparência em todas as etapas.</p>
         </div>
 
         <div className="content-section">
           <h2>Nossos Serviços em Construção Civil</h2>
-          <p>A Ecoss Engenharia oferece serviços completos de construção civil, desde o planejamento até a entrega final da obra.</p>
+          <p>A Ecoss Engenharia oferece serviços completos de construção civil, desde o planejamento até a entrega final da obra. Nosso compromisso é com prazos, qualidade e transparência em todas as etapas da obra. Utilizamos metodologias modernas de gestão de projetos e controle de qualidade, garantindo resultados que superam as expectativas dos clientes.</p>
           
           <div className="services-grid">
             <div className="service-card">
               <h3>Construção Residencial</h3>
-              <p>Execução de obras residenciais, desde casas unifamiliares até edifícios multifamiliares.</p>
+              <p>Casas, sobrados e pequenos edifícios residenciais.</p>
             </div>
             
             <div className="service-card">
               <h3>Construção Comercial</h3>
-              <p>Execução de obras comerciais, como lojas, escritórios e galpões empresariais.</p>
+              <p>Lojas, escritórios e espaços corporativos.</p>
             </div>
             
             <div className="service-card">
-              <h3>Construção Industrial</h3>
-              <p>Execução de obras industriais, com foco em funcionalidade e segurança.</p>
+              <h3>Construção Institucional</h3>
+              <p>Escolas, igrejas e espaços comunitários.</p>
             </div>
             
             <div className="service-card">
               <h3>Reformas e Ampliações</h3>
-              <p>Serviços de reforma, ampliação e retrofit de edificações existentes.</p>
+              <p>Modernização e expansão de edificações existentes.</p>
+            </div>
+            
+            <div className="service-card">
+              <h3>Instalações Elétricas Especiais</h3>
+              <p>Reformas e implementações de alto padrão.</p>
+            </div>
+            
+            <div className="service-card">
+              <h3>Gerenciamento de Obras</h3>
+              <p>Coordenação de equipes, cronogramas e orçamentos.</p>
+            </div>
+            
+            <div className="service-card">
+              <h3>Fiscalização Técnica</h3>
+              <p>Acompanhamento de obras executadas por terceiros.</p>
             </div>
           </div>
         </div>
@@ -57,3 +72,5 @@ export default function ConstrucaoCivil() {
     </Layout>
   );
 }
+
+

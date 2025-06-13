@@ -7,38 +7,58 @@ export default function EngenhariaCivil() {
     <Layout>
       <Head>
         <title>Engenharia Civil - Ecoss Engenharia</title>
-        <meta name="description" content="Serviços de Engenharia Civil da Ecoss Engenharia. Projetos estruturais, consultoria, laudos técnicos e muito mais." />
+        <meta name="description" content="Projetos completos em engenharia civil com metodologia BIM, garantindo precisão, integração e excelência técnica." />
       </Head>
 
       <div className="page-container">
         <div className="page-header">
           <h1>Engenharia Civil</h1>
-          <p>Soluções completas em projetos estruturais e consultoria</p>
+          <p>Projetos completos em engenharia civil com metodologia BIM, garantindo precisão, integração e excelência técnica.</p>
         </div>
 
         <div className="content-section">
           <h2>Nossos Serviços em Engenharia Civil</h2>
-          <p>A Ecoss Engenharia oferece serviços completos de engenharia civil, desde o planejamento inicial até a execução e acompanhamento de obras.</p>
+          <p>A Ecoss Engenharia oferece serviços completos de engenharia civil com foco em funcionalidade, estética e segurança. Todos os projetos são desenvolvidos com metodologia BIM (Building Information Modeling), garantindo maior precisão, integração entre disciplinas e redução de incompatibilidades, resultando em economia de tempo e recursos durante a execução.</p>
           
           <div className="services-grid">
             <div className="service-card">
+              <h3>Projetos Arquitetônicos</h3>
+              <p>Desenvolvimento de projetos residenciais, comerciais e institucionais com foco em funcionalidade e estética.</p>
+            </div>
+            
+            <div className="service-card">
               <h3>Projetos Estruturais</h3>
-              <p>Desenvolvimento de projetos estruturais para edificações residenciais, comerciais e industriais.</p>
+              <p>Dimensionamento e detalhamento de estruturas em concreto armado, metálicas e mistas.</p>
+            </div>
+            
+            <div className="service-card">
+              <h3>Projetos Hidrossanitários</h3>
+              <p>Sistemas de água fria, água quente, esgoto sanitário e águas pluviais.</p>
+            </div>
+            
+            <div className="service-card">
+              <h3>Projetos Elétricos</h3>
+              <p>Instalações elétricas de baixa tensão, iluminação, SPDA e sistemas de proteção.</p>
+            </div>
+            
+            <div className="service-card">
+              <h3>Projetos Complementares</h3>
+              <p>Prevenção e combate a incêndio, climatização, automação e outros.</p>
             </div>
             
             <div className="service-card">
               <h3>Consultoria Técnica</h3>
-              <p>Consultoria especializada para otimização de projetos e solução de problemas construtivos.</p>
+              <p>Análise de viabilidade, laudos técnicos e perícias.</p>
             </div>
             
             <div className="service-card">
-              <h3>Laudos e Perícias</h3>
-              <p>Elaboração de laudos técnicos e perícias para avaliação de estruturas e patologias construtivas.</p>
+              <h3>Regularização Fundiária</h3>
+              <p>Documentação e processos para regularização de imóveis e terrenos.</p>
             </div>
             
             <div className="service-card">
-              <h3>Gerenciamento de Obras</h3>
-              <p>Acompanhamento e gerenciamento completo de obras, garantindo qualidade e cumprimento de prazos.</p>
+              <h3>Acompanhamento de Obras</h3>
+              <p>Fiscalização e gerenciamento de execução conforme projetos aprovados.</p>
             </div>
           </div>
         </div>
@@ -52,3 +72,5 @@ export default function EngenhariaCivil() {
     </Layout>
   );
 }
+
+

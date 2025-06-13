@@ -6,7 +6,7 @@ const areas = [
   {
     id: 'engenharia-civil',
     title: 'Engenharia Civil',
-    description: 'Projetos estruturais, hidráulicos e complementares com metodologia BIM.',
+    description: 'Projetos completos em engenharia civil com metodologia BIM, garantindo precisão, integração e excelência técnica.',
     image: '/images/areas/engenharia_civil_construcao.jpeg',
     link: '/servicos/engenharia-civil',
     badge: 'BIM'
@@ -14,28 +14,28 @@ const areas = [
   {
     id: 'energia-solar',
     title: 'Energia Solar',
-    description: 'Soluções completas em energia fotovoltaica para residências e empresas.',
+    description: 'Soluções completas em energia fotovoltaica para residências e empresas, incluindo sistemas conectados à rede e autônomos.',
     image: '/images/areas/energia_solar_paineis.jpeg',
     link: '/servicos/energia-solar'
   },
   {
     id: 'engenharia-ambiental',
     title: 'Engenharia Ambiental',
-    description: 'Licenciamento ambiental e soluções sustentáveis para seu projeto.',
+    description: 'Licenciamento ambiental e soluções sustentáveis para projetos de todos os portes, com foco em conformidade legal e responsabilidade socioambiental.',
     image: '/images/areas/engenharia_ambiental_sustentabilidade.jpeg',
     link: '/servicos/engenharia-ambiental'
   },
   {
     id: 'incorporacao-imobiliaria',
     title: 'Incorporação Imobiliária',
-    description: 'Projetos multifamiliares verticais e horizontais com até 3 pavimentos.',
+    description: 'Projetos residenciais unifamiliares e multifamiliares com opções de financiamento personalizadas e metodologia BIM para máxima qualidade.',
     image: '/images/areas/incorporacao_imobiliaria.jpg',
     link: '/servicos/incorporacao-imobiliaria'
   },
   {
     id: 'construcao-civil',
     title: 'Construção Civil',
-    description: 'Execução de obras residenciais, comerciais e industriais.',
+    description: 'Execução de obras residenciais, comerciais e institucionais com excelência técnica, cumprimento de prazos e transparência em todas as etapas.',
     image: '/images/areas/construcao_civil.jpg',
     link: '/servicos/construcao-civil'
   }
@@ -85,3 +85,5 @@ export default function AreasAtuacao() {
     </section>
   );
 }
+
+

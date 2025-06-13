@@ -26,23 +26,24 @@ export default function Sobre() {
         <div className="mission-vision-values">
           <div className="mission">
             <h3>Missão</h3>
-            <p>Desenvolver soluções em engenharia que promovam o desenvolvimento sustentável, aliando inovação tecnológica, responsabilidade ambiental e viabilidade econômica.</p>
+            <p>Oferecer soluções completas em engenharia que combinam excelência técnica, inovação metodológica e compromisso com a sustentabilidade, gerando valor para clientes, colaboradores e comunidade.</p>
           </div>
           
           <div className="vision">
             <h3>Visão</h3>
-            <p>Ser referência nacional em engenharia sustentável, reconhecida pela excelência técnica, inovação e compromisso com o meio ambiente.</p>
+            <p>Expandir nossa atuação para todo o estado do Maranhão até 2028 e para estados vizinhos até 2030, sendo reconhecida como empresa inovadora que combina engenharia de alta qualidade, tecnologia BIM e compromisso com o desenvolvimento sustentável das comunidades.</p>
           </div>
           
           <div className="values">
             <h3>Valores</h3>
             <ul>
+              <li>Excelência Técnica</li>
+              <li>Inovação Responsável</li>
               <li>Sustentabilidade</li>
-              <li>Excelência técnica</li>
-              <li>Inovação</li>
-              <li>Ética e transparência</li>
-              <li>Compromisso com o cliente</li>
-              <li>Responsabilidade social</li>
+              <li>Compromisso Local</li>
+              <li>Integridade</li>
+              <li>Colaboração</li>
+              <li>Acessibilidade</li>
             </ul>
           </div>
         </div>
@@ -83,3 +84,5 @@ export default function Sobre() {
     </Layout>
   );
 }
+
+

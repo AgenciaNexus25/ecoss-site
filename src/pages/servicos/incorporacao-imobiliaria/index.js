@@ -7,28 +7,28 @@ export default function IncorporacaoImobiliaria() {
     <Layout>
       <Head>
         <title>Incorporação Imobiliária - Ecoss Engenharia</title>
-        <meta name="description" content="Serviços de Incorporação Imobiliária da Ecoss Engenharia. Desenvolvimento de empreendimentos, gestão de projetos e consultoria especializada." />
+        <meta name="description" content="Projetos residenciais unifamiliares e multifamiliares com opções de financiamento personalizadas e metodologia BIM para máxima qualidade." />
       </Head>
 
       <div className="page-container">
         <div className="page-header">
           <h1>Incorporação Imobiliária</h1>
-          <p>Desenvolvimento de empreendimentos com excelência e sustentabilidade</p>
+          <p>Projetos residenciais unifamiliares e multifamiliares com opções de financiamento personalizadas e metodologia BIM para máxima qualidade.</p>
         </div>
 
         <div className="content-section">
           <h2>Nossos Serviços em Incorporação Imobiliária</h2>
-          <p>A Ecoss Engenharia oferece serviços completos de incorporação imobiliária, desde a concepção até a entrega de empreendimentos.</p>
+          <p>A Ecoss Engenharia oferece serviços completos de incorporação imobiliária, desde a concepção até a entrega de empreendimentos, com foco em funcionalidade, estética e segurança. Todos os projetos são desenvolvidos com metodologia BIM (Building Information Modeling), garantindo maior precisão, integração entre disciplinas e redução de incompatibilidades, resultando em economia de tempo e recursos durante a execução.</p>
           
           <div className="services-grid">
             <div className="service-card">
-              <h3>Desenvolvimento de Empreendimentos</h3>
-              <p>Concepção e desenvolvimento de empreendimentos residenciais, comerciais e mistos.</p>
+              <h3>Empreendimentos Residenciais Unifamiliares</h3>
+              <p>Projetos completos para residências individuais, com opções de financiamento via bancos públicos (Caixa Econômica Federal) e alternativas de financiamento via bancos privados com taxas competitivas. Acompanhamento de todo o processo de aprovação e construção, com calculadora integrada para simulação de financiamento.</p>
             </div>
             
             <div className="service-card">
-              <h3>Gestão de Projetos</h3>
-              <p>Coordenação e gestão integrada de projetos imobiliários, garantindo qualidade e cumprimento de prazos.</p>
+              <h3>Empreendimentos Multifamiliares</h3>
+              <p>Projetos horizontais (condomínios) e verticais (até 3 pavimentos), com opções de crédito e financiamento imobiliário via bancos privados, crédito imobiliário, financiamento imobiliário e capital de giro. Gestão completa do empreendimento e possibilidade de execução com capital próprio.</p>
             </div>
             
             <div className="service-card">
@@ -58,3 +58,5 @@ export default function IncorporacaoImobiliaria() {
     </Layout>
   );
 }
+
+

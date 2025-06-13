@@ -4,36 +4,58 @@ import Link from 'next/link';
 
 const projetos = [
   {
-    id: 'projeto-1',
-    titulo: 'Residencial Villa Verde',
-    categoria: 'Incorporação Imobiliária',
-    descricao: 'Condomínio horizontal com 24 unidades residenciais, utilizando metodologia BIM.',
+    id: 'reforma-eletrica-espaco-vip',
+    titulo: 'Reforma Elétrica Completa do Espaço Vip - Cururupu',
+    categoria: 'Engenharia Civil',
+    descricao: 'Modernização completa da infraestrutura elétrica de um espaço de eventos premium, integrando sistemas de iluminação sofisticados e garantindo segurança e eficiência energética.',
     imagens: [
-      '/images/projetos/incorporacao_1.jpg',
-      '/images/projetos/incorporacao_2.jpg',
-      '/images/projetos/incorporacao_3.jpg',
+      '/images/projetos/reforma_eletrica_espaco_vip_1.jpg',
+      '/images/projetos/reforma_eletrica_espaco_vip_2.jpg',
+      '/images/projetos/reforma_eletrica_espaco_vip_3.jpg',
     ]
   },
   {
-    id: 'projeto-2',
-    titulo: 'Usina Fotovoltaica Empresarial',
+    id: 'vistoria-manutencao-energia-solar-torres',
+    titulo: 'Vistoria e Manutenção de Sistema de Energia Solar em Torres de Transmissão',
     categoria: 'Energia Solar',
-    descricao: 'Instalação de sistema fotovoltaico de 75kWp para indústria de alimentos.',
+    descricao: 'Garantia do funcionamento contínuo de sistemas de energia solar que alimentam torres de transmissão de sinal telefônico em áreas remotas, essenciais para a comunicação de comunidades isoladas.',
     imagens: [
-      '/images/projetos/solar_1.jpg',
-      '/images/projetos/solar_2.jpg',
-      '/images/projetos/solar_3.jpg',
+      '/images/projetos/energia_solar_torres_1.jpg',
+      '/images/projetos/energia_solar_torres_2.jpg',
+      '/images/projetos/energia_solar_torres_3.jpg',
     ]
   },
   {
-    id: 'projeto-3',
-    titulo: 'Estação de Tratamento de Efluentes',
-    categoria: 'Engenharia Ambiental',
-    descricao: 'Projeto e execução de estação de tratamento para indústria têxtil.',
+    id: 'projeto-arquitetonico-escola-confiar',
+    titulo: 'Projeto Arquitetônico da Nova Sede da Escola Confiar - Cururupu-MA',
+    categoria: 'Engenharia Civil',
+    descricao: 'Desenvolvimento de um projeto arquitetônico inovador para a primeira e maior instituição de ensino multidisciplinar da região, com necessidades específicas para atender diversos públicos, incluindo alunos com necessidades especiais.',
     imagens: [
-      '/images/projetos/ambiental_1.jpg',
-      '/images/projetos/ambiental_2.jpg',
-      '/images/projetos/ambiental_3.jpg',
+      '/images/projetos/escola_confiar_1.jpg',
+      '/images/projetos/escola_confiar_2.jpg',
+      '/images/projetos/escola_confiar_3.jpg',
+    ]
+  },
+  {
+    id: 'projeto-estrutural-fachada-torres-igreja-sao-jorge',
+    titulo: 'Projeto Estrutural da Nova Fachada e Torres da Igreja Matriz da Paróquia São Jorge',
+    categoria: 'Engenharia Civil',
+    descricao: 'Desenvolvimento de um projeto estrutural para uma fachada monumental com duas torres de mais de 15 metros de altura, garantindo estabilidade, segurança e fidelidade à concepção arquitetônica sacra original.',
+    imagens: [
+      '/images/projetos/igreja_sao_jorge_1.jpg',
+      '/images/projetos/igreja_sao_jorge_2.jpg',
+      '/images/projetos/igreja_sao_jorge_3.jpg',
+    ]
+  },
+  {
+    id: 'projeto-basico-legal-ampliacao-igreja-sao-joao-batista',
+    titulo: 'Projeto Básico-Legal da Ampliação da Igreja Matriz da Paróquia de São João Batista',
+    categoria: 'Engenharia Civil',
+    descricao: 'Desenvolvimento de um projeto de ampliação para uma edificação histórica, respeitando suas características originais enquanto atendendo às necessidades atuais da comunidade religiosa e às exigências legais.',
+    imagens: [
+      '/images/projetos/igreja_sao_joao_batista_1.jpg',
+      '/images/projetos/igreja_sao_joao_batista_2.jpg',
+      '/images/projetos/igreja_sao_joao_batista_3.jpg',
     ]
   },
 ];
@@ -178,3 +200,5 @@ export default function ProjetosGaleria() {
     </section>
   );
 }
+
+

@@ -15,17 +15,20 @@ export default function CalculadoraSolar() {
   const calcularEconomia = (e) => {
     e.preventDefault();
     
-    // Simulação de cálculo
     const consumoMensal = parseFloat(consumo);
-    const economiaAnual = consumoMensal * 12 * 0.85; // 85% de economia média
-    const valorSistema = consumoMensal * 900; // Valor aproximado
-    const retornoInvestimento = valorSistema / (economiaAnual * 0.92);
+    const custoKWh = 0.85; // Valor médio de R$/kWh
+    const economiaPercentual = 0.85; // 85% de economia média
+
+    const economiaAnualReais = consumoMensal * 12 * custoKWh * economiaPercentual;
+    const valorSistema = consumoMensal * 900; // R$ 900 por kWh de consumo mensal
+    const potenciaSistema = consumoMensal / 150; // kWp aproximado
+    const retornoInvestimento = valorSistema / economiaAnualReais;
     
     setResultado({
-      economiaAnual,
+      economiaAnual: economiaAnualReais,
       valorSistema,
       retornoInvestimento,
-      potenciaSistema: consumoMensal / 150 // kWp aproximado
+      potenciaSistema
     });
     
     setFormSubmitted(true);
@@ -201,3 +204,5 @@ export default function CalculadoraSolar() {
     </section>
   );
 }
+
+
